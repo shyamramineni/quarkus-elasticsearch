@@ -50,3 +50,26 @@ If you want to learn more about building native executables, please consult http
 ## Related Guides
 
 - Elasticsearch REST client ([guide](https://quarkus.io/guides/elasticsearch)): Connect to an Elasticsearch cluster using the REST low level client
+
+Tranche #3: Development of Single Page UI Application with below Functionalities/Services
+1 Release Versioning - Service Header based routing functionality (version-based client software download)
+2 Local Native System Services - Libraries for file system access, executing Windows commands, and OS interactions Microservice
+3 Component Configuration Management Services - Configuring the ATM with information from remote service
+4 Command Handling Services - Capability to handle supported commands
+5 Offline Message Handling - Store-and-forward mechanism when network connectivity fails
+6 Hardware & Software Status Reporting - Collect status of hardware components and software components
+7 Component Status Aggregation - Aggregate hardware and software status
+8 Build UI Page - Build the integrated UI Page for above services
+
+
+Actual
+M2 - Dec 30, 2025 - Tranche #3: Completed Development for 1 of 8 UI Services/features
+M3 - Jan 30, 2026 - Tranche #3: Completed Development for 3 of 8 UI Services/features
+
+
+Amended
+M4 - Feb 20, 2026    - Tranche #3: Completed Development for 1 of 8 UI Services/features
+M5 - Mar 20, 2026    - Tranche #3: Completed Development for 4 of 8 UI Services/features
+M6 - April 20, 2026  - Tranche #3: Completed Development for 8 of 8 UI Services/features
+                       Tranche #3: Complete Production Deployment for 8 of 8 Services
+
