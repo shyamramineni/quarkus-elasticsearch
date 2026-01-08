@@ -51,6 +51,22 @@ If you want to learn more about building native executables, please consult http
 
 - Elasticsearch REST client ([guide](https://quarkus.io/guides/elasticsearch)): Connect to an Elasticsearch cluster using the REST low level client
 
+Tranche #1: Following Services to be modified to use Envoy Gateway instead of DataPower
+1 AccountInquiryRequest Envoy Gateway Migration
+2 AnalyseTransactionLimitRequest Envoy Gateway Migration
+3 CustomerProfileRequest Envoy Gateway Migration
+4 OfferDecisionRequest Envoy Gateway Migration
+5 ProductServiceDispositionRequest Envoy Gateway Migration
+
+Tranche #2: Following Services to be modified to use Envoy Gateway instead of DataPower and modernized to use
+ATM 2.0 Framework
+1 MortgageAccountInquiry Envoy Gateway Migration and ATM 2.0 Modernization
+2 CreditCardInquiryRequest3.0 Envoy Gateway Migration and ATM 2.0 Modernization
+3 RelatedCustomerSearchRequest2.0 Envoy Gateway Migration and ATM 2.0 Modernization
+4 RetrieveChannelDetails Envoy Gateway Migration and ATM 2.0 Modernization
+5 TransactionHistorySearchRequest3.0 Envoy Gateway Migration and ATM 2.0 Modernization
+6 CustomerDocumentLoadRequest1.0 Envoy Gateway Migration and ATM 2.0 Modernization
+
 Tranche #3: Development of Single Page UI Application with below Functionalities/Services
 1 Release Versioning - Service Header based routing functionality (version-based client software download)
 2 Local Native System Services - Libraries for file system access, executing Windows commands, and OS interactions Microservice
@@ -62,14 +78,59 @@ Tranche #3: Development of Single Page UI Application with below Functionalities
 8 Build UI Page - Build the integrated UI Page for above services
 
 
+FE+BE 
+-------------------------------------------------------------------------------------------------------------------------------
 Actual
-M2 - Dec 30, 2025 - Tranche #3: Completed Development for 1 of 8 UI Services/features
-M3 - Jan 30, 2026 - Tranche #3: Completed Development for 3 of 8 UI Services/features
-
-
+M1 - Nov 30, 2025 - Design Completion for Services inTranche #1, Trance #2 and Tranche #3
+                    Development Completion: 1 of 19 Services
+                        Tranche #1: Completed Development for 1 of 5 Services
+M2 - Dec 30, 2025 - Development Completion: 5 Services (Cumulative 6 of 19)
+                        Tranche #1: Completed Development  for 3 of 5 Services
+                        Tranche #2: Completed Development  for 2 of 6 Services
+                        Tranche #3: Completed Development  for 1 of 8 UI Services/features
+M3 - Jan 30, 2026 - Development Completion: 6 Services (Cumulative 12 of 19)
+                    Tranche #1: Completed Development for 5 of 5 Services
+                    Tranche #2: Completed Development for 4 of 6 Services
+                    Tranche #3: Completed Development for 3 of 8 UI Services/features
+                    UAT Support: 5 Services (Cumulative 5 of 19)
+                    Tranche #1: Completed UAT
+                    Support for 5 of 5 Services
 Amended
-M4 - Feb 20, 2026    - Tranche #3: Completed Development for 1 of 8 UI Services/features
-M5 - Mar 20, 2026    - Tranche #3: Completed Development for 4 of 8 UI Services/features
-M6 - April 20, 2026  - Tranche #3: Completed Development for 8 of 8 UI Services/features
-                       Tranche #3: Complete Production Deployment for 8 of 8 Services
+M3 - Jan 30, 2026 - UAT Support: 3 Services (Cumulative 3 of 19)
+                    Tranche #1: Completed UAT
+                        Production Readiness: 3 Services (Cumulative 3 of 19)
+                    Tranche #1: Complete Production
+                    Deployment for 3 of 5 Services
+
+M4 - Feb 20, 2026 - Development Completion: 7 Services (Cumulative 10 of 19)
+                    Tranche #1: Completed Development for 5 of 5 Services
+                    Tranche #2: Completed Development for 4 of 6 Services
+                    Tranche #3: Completed Development for 1 of 8 UI Services/features
+
+                    UAT Support: 5 Services (Cumulative 5 of 19)
+                    Tranche #1: Completed UAT Support for 5 of 5 services
+
+M5 - Mar 20, 2026 - Development Completion: 5 Services (Cumulative 15 of 19)
+                    Tranche #2: Completed Development for 6 of 6 Services
+                    Tranche #3: Completed Development for 4 of 8 UI Services/features
+
+                    UAT Support: 6 Services (Cumulative 11 of 19)
+                    Tranche #2: Completed UAT
+                    Support for 6 of 6 Services
+                    Production Deployment: 5 Services (Cumulative 5 of 15)
+
+M6 - April 20, 2026 -   Development Completion: 4 Services (Cumulative 19 of   19)
+                        Tranche #3: Completed Development for 8 of 8 UI Services/features
+
+                        UAT Support: 8 Services (Cumulative 19 of 19)
+                        Tranche #3: Completed UAT
+                        Support for 8 of 8 Services
+
+                        Production Deployment: 14 Services (Cumulative 19 of 19)
+                        Tranche #2: Complete Production
+                        Deployment for 6 of 6 Services
+                        Tranche #3: Complete Production
+                        Deployment for 8 of 8 Services 
+
+M7 - May 28, 2026 - Post Deployment Support & Defect Fix as needed Documentation and Hand Over Warranty Support
 
